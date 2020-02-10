@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Test_first"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opencv\;CMake Files\..\..\..\opencv\build\;CMake Files\..\..\..\opencv\build\install\;CMake Files\..\..\..\opencv\build\install\x64\;CMake Files\..\..\..\opencv\build\install\x64\mingw\;CMake Files\..\..\..\opencv\build\install\x64\mingw\lib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_first">
+				<Option output="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Test_first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion/opencv/build/install/include"/>
+					<Add directory="E:/CLion/opencv/build/install/include/opencv"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_first"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test_first/fast">
+				<Option output="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Test_first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion/opencv/build/install/include"/>
+					<Add directory="E:/CLion/opencv/build/install/include/opencv"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/CLion/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test_first/fast"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CLion/Project/OpenCV/Test_first/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion/MinGW/mingw64/bin/mingw32-make.exe -f &quot;E:/CLion/Project/OpenCV/Test_first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/main.cpp">
+			<Option target="Test_first"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/../../../opencv/build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\install\"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/../../../opencv/build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\install\"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/../../../opencv/build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/../../../opencv/build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="E:/CLion/Project/OpenCV/Test_first/../../../opencv/build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opencv\build\install\x64\mingw\lib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
